@@ -17,9 +17,9 @@ const createServerCallConfig: CreateServerCall = {
     defaultResponseDataDept: (response: any) => response?.['data']?,
     successFieldDept: (response: any) => response?.['data']?.['success'],
 }
-```
-export const serverCall = createServerCall(createServerCallConfig);
 
+export const serverCall = createServerCall(createServerCallConfig);
+```
 
 - Set Up Store
 
